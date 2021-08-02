@@ -1,8 +1,7 @@
 {
     "OnlinePolicyList" : [
         {
-            "Name": "ControlSettings.json",
-            "OverrideOffline":true
+            "Name": "ControlSettings.json"
         },
         {
             "Name" : "ServerConfigMetadata.json"
