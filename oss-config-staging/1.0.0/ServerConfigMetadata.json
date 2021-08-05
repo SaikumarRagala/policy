@@ -10,7 +10,7 @@
             "Name" : "ADO.Release.ext.json"
         },
          {
-            "Name" : "ADO.Release.ext.ps1"
+            "Name" : "Release.ext.ps1"
         }
     ]
 }
