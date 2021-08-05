@@ -8,6 +8,12 @@
         },
          {
             "Name" : "ADO.Release.json"
+        },
+        {
+            "Name" : "ADO.Release.ext.json"
+        },
+         {
+            "Name" : "ADO.Release.ext.ps1"
         }
     ]
 }
