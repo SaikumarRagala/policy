@@ -1,0 +1,10 @@
+{
+    "OnlinePolicyList" : [
+        {
+            "Name": "ControlSettings.json"
+        },
+        {
+            "Name" : "ServerConfigMetadata.json"
+        }
+    ]
+}
