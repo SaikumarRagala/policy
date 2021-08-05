@@ -1,0 +1,16 @@
+{
+    "OnlinePolicyList" : [
+        {
+            "Name": "ControlSettings.json"
+        },
+        {
+            "Name" : "ServerConfigMetadata.json"
+        },
+        {
+            "Name" : "ADO.Release.ext.json"
+        },
+         {
+            "Name" : "Release.ext.ps1"
+        }
+    ]
+}
