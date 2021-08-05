@@ -6,9 +6,6 @@
         {
             "Name" : "ServerConfigMetadata.json"
         },
-         {
-            "Name" : "ADO.Release.json"
-        },
         {
             "Name" : "ADO.Release.ext.json"
         },
