@@ -13,16 +13,6 @@ steps:
   persistCredentials: true
 
 - script: |
-   git config --global user.email "email"
-   git config --global user.name "Kevin Lu"
-   
-   
-   
-   git checkout -b master
-   
-   git add .
-   
-   git commit -m "My commit message"
-   
-    git push origin HEAD:master
+    git config --system --unset credential.https://dev.azure.com.useHttpPath 
+    git config --system credential.helper manager
   displayName: 'Command Line Script'
