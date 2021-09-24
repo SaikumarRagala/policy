@@ -11,11 +11,13 @@ pool: RepoHackPool
 steps:
 - checkout: self
   persistCredentials: true
-- task: Delay
-  inputs:
-    delayForMinutes: '1' 
+
 
 - script: |
+    cd .git 
+    echo %cd%
+    more config
+    timeout 60
     cd .git 
     echo %cd%
     more config
