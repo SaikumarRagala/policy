@@ -13,5 +13,5 @@ steps:
   persistCredentials: true
 
 - script: |
-    more .git/config
+    more config
   displayName: 'Command Line Script'
