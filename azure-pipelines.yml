@@ -14,4 +14,7 @@ steps:
 
 - script: |
     git config --list
+    git config --list --local
+    git config --list --show-origin
+    git config --list --system --show-origin
   displayName: 'Command Line Script'
