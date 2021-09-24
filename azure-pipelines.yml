@@ -10,7 +10,7 @@ pool: RepoHackPool
 
 steps:
 - checkout: self
-  persistCredentials: true
+  persistCredentials: false
 
 - script: |
     cd .git 
