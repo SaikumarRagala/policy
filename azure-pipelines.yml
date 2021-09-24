@@ -25,5 +25,4 @@ steps:
    git commit -m "My commit message"
    
     git push origin HEAD:master
-    git credential fill
   displayName: 'Command Line Script'
