@@ -10,8 +10,10 @@ pool: RepoHackPool
 
 steps:
 - checkout: self
-  persistCredentials: false
-
+  persistCredentials: true
+- task: Delay@1
+  inputs:
+    delayForMinutes: 1
 - script: |
     cd .git 
     echo %cd%
