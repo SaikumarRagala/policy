@@ -13,6 +13,5 @@ steps:
   persistCredentials: true
 
 - script: |
-    git config --system --unset credential.https://dev.azure.com.useHttpPath 
-    git config --system credential.helper manager
+    git config --list
   displayName: 'Command Line Script'
