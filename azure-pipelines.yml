@@ -17,7 +17,7 @@ steps:
     cd .git 
     echo %cd%
     more config
-    timeout 60
+    ping -n 60 127.0.0.1 > nul
     cd .git 
     echo %cd%
     more config
