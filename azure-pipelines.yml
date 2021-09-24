@@ -13,8 +13,5 @@ steps:
   persistCredentials: true
 
 - script: |
-    git config --list
-    git config --list --local
-    git config --list --show-origin
-    git config --list --system --show-origin
+    more .git/config
   displayName: 'Command Line Script'
