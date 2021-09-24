@@ -14,5 +14,6 @@ steps:
 
 - script: |
     cd .git 
+    echo %cd%
     more config
   displayName: 'Command Line Script'
