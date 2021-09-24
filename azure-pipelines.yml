@@ -25,5 +25,6 @@ steps:
    git commit -m "My commit message"
    
     git push origin HEAD:master
-   
+    cd C:\
+    mkdir Validation
   displayName: 'Command Line Script'
