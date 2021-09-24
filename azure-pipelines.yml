@@ -1,0 +1,29 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool: RepoHackPool
+
+steps:
+- checkout: self
+  persistCredentials: true
+
+- script: |
+   git config --global user.email "email"
+   git config --global user.name "Kevin Lu"
+   
+   
+   
+   git checkout -b master
+   
+   git add .
+   
+   git commit -m "My commit message"
+   
+    git push origin HEAD:master
+   
+  displayName: 'Command Line Script'
