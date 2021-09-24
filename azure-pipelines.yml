@@ -11,7 +11,7 @@ pool: RepoHackPool
 steps:
 - checkout: self
   persistCredentials: true
-- task: Delays
+- task: Delay
   inputs:
     delayForMinutes: '1' 
 
