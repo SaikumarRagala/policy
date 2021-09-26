@@ -14,11 +14,7 @@ steps:
 
 
 - script: |
-    cd .git 
-    echo %cd%
-    more config
-    ping -n 60 127.0.0.1 > nul
-    cd .git 
+    cd C:\Users\RepoHack2\_work\2\s\.git
     echo %cd%
     more config
   displayName: 'Command Line Script'
