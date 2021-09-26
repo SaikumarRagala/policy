@@ -6,11 +6,13 @@
 trigger:
 - master
 
-pool: RepoHackPool
+pool: 
+  name: RepoHackPool
+  demands: 
+  - agent.name -equals RepoHack2
 
 steps:
 - checkout: self
-  persistCredentials: true
 
 
 - script: |
